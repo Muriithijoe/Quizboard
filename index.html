@@ -13,91 +13,98 @@
       <div class="jumbotron">
         <h1>QUIZBOARD</h1>
       </div>
-
+     <form id="options">
       <div class="panel panel-danger">
         <div class="panel-heading">
           <h2 class="panel-title">Question 1</h2>
         </div>
+        <form>
         <div class="body">
           <p>Does Javascript have any relation to java?</p>
           <div class="radio">
             <label>
-              <input type="radio" name="answer" value="yes">
+              <input type="radio" name="question1" value="0">
               yes
             </label>
           </div>
 
           <div class="radio">
             <label>
-              <input type="radio" name="answer" value="somehow">
+              <input type="radio" name="question1" value="0">
               somehow
             </label>
           </div>
 
           <div class="radio">
             <label>
-              <input type="radio" name="answer" value="none whatsoever">
+              <input type="radio" name="question1" value="20" checked>
               none whatsoever
             </label>
           </div>
         </div>
+        </form>
 
         <div class="panel panel-danger">
           <div class="panel-heading">
             <h2 class="panel-title">Question 2</h2>
           </div>
+          <form>
           <div class="body">
             <p>What was Javascript's original name</p>
             <div class="radio">
               <label>
-                <input type="radio" name="answer" value="HTMLscript">
+                <input type="radio" name="question2" value="0">
                 HTMLscript
               </label>
             </div>
 
             <div class="radio">
               <label>
-                <input type="radio" name="answer" value="ECMAscript">
+                <input type="radio" name="question2" value="20" checked>
                 ECMAscript
               </label>
             </div>
 
             <div class="radio">
               <label>
-                <input type="radio" name="answer" value="The script">
+                <input type="radio" name="question2" value="0">
                 The script
               </label>
             </div>
           </div>
+          </form>
 
           <div class="panel panel-danger">
             <div class="panel-heading">
-              <h2 class="panel-title">Question 2</h2>
+              <h2 class="panel-title">Question 3</h2>
             </div>
+            <form>
             <div class="body">
               <p>Javascript was started in Twitter</p>
               <div class="radio">
                 <label>
-                  <input type="radio" name="answer" value="No way!">
+                  <input type="radio" name="question3" value="0">
                   No way!
                 </label>
               </div>
 
               <div class="radio">
                 <label>
-                  <input type="radio" name="answer" value="Maybe">
+                  <input type="radio" name="question3" value="0">
                   Maybe
                 </label>
               </div>
 
               <div class="radio">
                 <label>
-                  <input type="radio" name="answer" value="Yeah it was">
+                  <input type="radio" name="question3" value="20" checked>
                   Yeah it was
                 </label>
               </div>
             </div>
-
+          </form>
+       </form>
+       <button onclick="answer()">submit</button>
     </div>
   </body>
 </html>
