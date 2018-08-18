@@ -9,6 +9,7 @@ $.(document).ready(function(){
   $("#result").text("Your total score is "+result);
 
 
+  //:user interface
   $(".quiz").fadeOut();
   $(".answer").fadeIn();
 
