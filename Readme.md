@@ -10,6 +10,8 @@ This is a website that has question that require answers on Javascript
 * run the link and it will open
 * Voila! the webpage opens
 
+##link to live page
+ https://muriithijoe.github.io/Quizboard/
 
 ## Technologies Used
 I used HTML, CSS, Bootstrap and jquery in making this webpage.
